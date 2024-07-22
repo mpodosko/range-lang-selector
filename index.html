@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+<title>Range language selector</title>
+</head>
+<body><input type="range" id="l" min="0" max="10" step="1" value="0"><p id="p">English</p>
+<script>
+var langs = ['English', 'Russian', 'Ukrainian', 'Polish', 'German', 'Javascript', 'C#', 'CSS', 'HTML', 'Python'];
+l.oninput=()=>{p.innerHTML=langs[Number(l.value)]};
+// by t.me/mpodosko
+</script>
+<a href="t.me/mpodosko" style="position:fixed;right:4px;top:4px;">by t.me/mpodosko</a>
+</body>
+</html>
